@@ -8,7 +8,7 @@ Este é um projeto de site portfólio pessoal responsivo, desenvolvido utilizand
 * Bootstrap 5.0.0 ou superior
 
 ## Como Executar o Projeto
-Clone o repositório para sua máquina local.
+<p>Clone o repositório para sua máquina local.</p> 
 Abra um terminal na pasta raiz do projeto.
 
 ## Crie e ative um ambiente virtual:
