@@ -1,4 +1,7 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "editor.fontSize": 14,
+    "files.autoSave": "afterDelay",
+    "python.analysis.typeCheckingMode": "basic"
 }

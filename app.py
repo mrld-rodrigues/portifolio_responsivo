@@ -1,4 +1,4 @@
-from flask import Flask, render_template, redirect
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
@@ -11,4 +11,3 @@ def index():
 if __name__ == '__main__':
     # Debug True serve para atualizar a página sem parar o servidor
     app.run(debug=True)
-
