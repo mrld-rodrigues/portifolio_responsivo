@@ -3,9 +3,9 @@
 Este é um projeto de site portfólio pessoal responsivo, desenvolvido utilizando as tecnologias Python, Flask e Bootstrap. O objetivo do site é apresentar informações sobre meu trabalho, habilidades, projetos e experiência.
 
 ## Tecnologias Utilizadas
-Python 3.7 ou superior
-Flask 2.0.2 ou superior
-Bootstrap 5.0.0 ou superior
+* Python 3.7 ou superior
+* Flask 2.0.2 ou superior
+* Bootstrap 5.0.0 ou superior
 
 ## Como Executar o Projeto
 Clone o repositório para sua máquina local.
