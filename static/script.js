@@ -44,3 +44,36 @@ animationScroll()
 window.addEventListener("scroll", () => {
     animationScroll();
 })
+
+// Ativar o o botão de carregamento do enviar
+
+const form = document.querySelector('form');
+const btnEnviar = document.querySelector('#btn-enviar');
+const btnEnviando = document.querySelector('#btn-enviando');
+
+form.addEventListener('submit', (event) => {
+  // previne que o formulário seja enviado antes da verificação
+  event.preventDefault();
+  
+  // verifica se todos os campos foram preenchidos
+  const nome = document.querySelector('#nome').value;
+  const email = document.querySelector('#email').value;
+  const mensagem = document.querySelector('#mensagem').value;
+  
+  if (nome && email && mensagem) {
+    // exibe o botão "enviando" e esconde o botão "enviar"
+    btnEnviando.style.display = 'block';
+    btnEnviar.style.display = 'none';
+    
+    // envia a mensagem
+    form.submit();
+  } else {
+    // exibe uma mensagem de erro
+    alert('Por favor, preencha todos os campos.');
+  }
+});
+
+// Timer para o alerta desaparecer
+setTimeout(()=>{
+    document.querySelector('#alerta').style.display = 'none';
+}, 3000)

@@ -1,7 +1,8 @@
 {
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "editor.fontSize": 14,
+    "editor.fontSize": 22,
     "files.autoSave": "afterDelay",
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+    "workbench.colorTheme": "Dracula"
 }
